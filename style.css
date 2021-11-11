@@ -1,0 +1,48 @@
+* {
+ font-family: 'Roboto', sans-serif; 
+}
+
+.cph {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 200px;
+  background-color: #ff0000;
+}
+
+/*.cslider {
+  display: grid;
+  grid-template-columns: 100% 100%;
+  grid-template-rows: 90px;
+  animation: slider 5s infinite;
+  position: relative;
+}
+
+@keyframes slider {
+  from {right: 0%;}
+  35% {right: 100%;}
+  100% {right: 200%;}
+}*/
+
+.cpm {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 200px;
+  background-color: #adff2f;
+}
+
+.cpf {
+  background-color: #4169e1;
+}
+
+div, .cph, .cpm {
+  border: 1px solid;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.nav {
+ height: 200px;
+}
